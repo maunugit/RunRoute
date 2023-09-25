@@ -171,7 +171,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
-        // Set up the key listener to handle arrow key events
+        
         findViewById(R.id.map).setOnKeyListener(new View.OnKeyListener() {
 
             @Override
